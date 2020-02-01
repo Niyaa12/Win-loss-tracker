@@ -1,0 +1,72 @@
+function start(){
+    
+    var tracker = [
+        {
+            sportName: "Chess",
+            player: "John",
+            win: 18,
+            losses: 2
+        },
+        {
+            sportName:"Basketball",
+            player: "Kobe",
+            win: 180,
+            losses: 12 
+        },
+        {
+         sportName: "FortNight",
+            player: "Eddy",
+            win: 5,
+            losses: 4 
+        },
+        {
+         sportName: "Uno",
+            player: "Charlie brown",
+            win: 2, 
+            losses: 3  
+        },
+        {
+         sportName: "Hide and seek",
+            player: "Bianca",
+            win: 0, 
+            losses: 1
+        },
+        {
+         sportName: "Trouble",
+            player: "Sammy",
+            win: 90,
+            losses: 72
+        },
+        {
+         sportName: "Bowling",
+            player: "William",
+            win: 3,
+            losses: 1
+        },
+        {
+         sportName: "Vollyball",
+            player: "sarah",
+            win: 2,
+            losses: 0
+        },
+        {
+         sportName: "Archey",
+            player: "Loneua",
+            win: 1,
+            losses: 12
+        },
+        {
+         sportName: "Basketball",
+            player: "Bianca",
+            win: 1,
+            losses: 12
+}
+        ]
+    
+    for(var i = 0; i < tracker.length; i++) {
+        console.log("You have won " + tracker[i].win + " " + "times.");
+         console.log("You have lost " + tracker[i].losses + " "  + "times.");
+
+}
+    
+}   
